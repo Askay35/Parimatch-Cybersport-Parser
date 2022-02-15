@@ -86,12 +86,12 @@ def getUrls():
         else:
             last_y = y
 
-    out = []
-    for i in urls:
-        if i not in out:
-            out.append(i)
+    # out = []
+    # for i in urls:
+    #     if i not in out:
+    #         out.append(i)
 
-    return out
+    return urls
 
 
 def dictToJson(filename, array):

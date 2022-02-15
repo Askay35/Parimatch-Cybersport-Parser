@@ -1,0 +1,296 @@
+[
+  {
+    "coefficients": {
+      "result": {
+        "p1": 2.03,
+        "draw": 0,
+        "p2": 1.71
+      }
+    },
+    "team1": "Phoenix",
+    "team2": "Army Geniuses",
+    "event": "Dota 2. New Year Holy War"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.81,
+        "draw": 0,
+        "p2": 1.9
+      }
+    },
+    "team1": "Red Flower",
+    "team2": "Eternal",
+    "event": "Dota 2. Battle Of Bifrost"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 8.45,
+        "draw": 0,
+        "p2": 1.04
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "MAMMOTH(+10.5)",
+          "value": "1.87"
+        },
+        {
+          "key": "Chiefs(-10.5)",
+          "value": "1.87"
+        }
+      ]
+    },
+    "team1": "MAMMOTH",
+    "team2": "Chiefs",
+    "event": "Лига Легенд. LCO"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 6.21,
+        "draw": 0,
+        "p2": 1.09
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "Gravitas(+10.5)",
+          "value": "1.87"
+        },
+        {
+          "key": "ORDER(-10.5)",
+          "value": "1.87"
+        }
+      ]
+    },
+    "team1": "Gravitas",
+    "team2": "ORDER",
+    "event": "Лига Легенд. LCO"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.44,
+        "draw": 0,
+        "p2": 2.61
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "FC Schalke 04(-7.5)",
+          "value": "1.87"
+        },
+        {
+          "key": "PENTA 1860(+7.5)",
+          "value": "1.87"
+        }
+      ]
+    },
+    "team1": "FC Schalke 04",
+    "team2": "PENTA 1860",
+    "event": "Лига Легенд. Prime League"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.39,
+        "draw": 0,
+        "p2": 2.78
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "MACKO(-8.5)",
+          "value": "1.87"
+        },
+        {
+          "key": "GG(+8.5)",
+          "value": "1.87"
+        }
+      ]
+    },
+    "team1": "MACKO",
+    "team2": "GG",
+    "event": "Лига Легенд. PG Nationals"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.86,
+        "draw": 0,
+        "p2": 1.86
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "Flamengo Academy(+3.5)",
+          "value": "1.80"
+        },
+        {
+          "key": "Red Canids Academy(-3.5)",
+          "value": "1.95"
+        }
+      ]
+    },
+    "team1": "Flamengo Academy",
+    "team2": "Red Canids Academy",
+    "event": "Лига Легенд. CBLOL Academy"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.86,
+        "draw": 0,
+        "p2": 1.86
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "FURIA Academy(-3.5)",
+          "value": "1.95"
+        },
+        {
+          "key": "Liberty Academy(+3.5)",
+          "value": "1.80"
+        }
+      ]
+    },
+    "team1": "FURIA Academy",
+    "team2": "Liberty Academy",
+    "event": "Лига Легенд. CBLOL Academy"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.69,
+        "draw": 0,
+        "p2": 2.06
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "LOUD Academy(-4.5)",
+          "value": "1.87"
+        },
+        {
+          "key": "paiN Academy(+4.5)",
+          "value": "1.87"
+        }
+      ]
+    },
+    "team1": "LOUD Academy",
+    "team2": "paiN Academy",
+    "event": "Лига Легенд. CBLOL Academy"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.54,
+        "draw": 0,
+        "p2": 2.33
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "Netshoes Miners Academy(-6.5)",
+          "value": "1.87"
+        },
+        {
+          "key": "KaBuM! Academy(+6.5)",
+          "value": "1.87"
+        }
+      ]
+    },
+    "team1": "Netshoes Miners Academy",
+    "team2": "KaBuM! Academy",
+    "event": "Лига Легенд. CBLOL Academy"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 2.41,
+        "draw": 0,
+        "p2": 1.51
+      }
+    },
+    "team1": "Weibo Youth",
+    "team2": "TT Young",
+    "event": "Лига Легенд. LDL"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.71,
+        "draw": 0,
+        "p2": 2.03
+      }
+    },
+    "team1": "Anyone's Legend Young",
+    "team2": "Top Esports Challenger",
+    "event": "Лига Легенд. LDL"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 2.46,
+        "draw": 0,
+        "p2": 1.49
+      }
+    },
+    "team1": "Pinnacle",
+    "team2": "Orange",
+    "event": "Лига Легенд. LDL"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 2.78,
+        "draw": 0,
+        "p2": 1.39
+      },
+      "Фора": [
+        {
+          "key": "Royal Never Give Up(+1.5)",
+          "value": "1.82"
+        },
+        {
+          "key": "Vici Gaming(-1.5)",
+          "value": "1.92"
+        }
+      ],
+      "Тотал": [
+        {
+          "value": "4.5",
+          "over": "2.80",
+          "under": "1.40"
+        }
+      ]
+    },
+    "team1": "Royal Never Give Up",
+    "team2": "Vici Gaming",
+    "event": "King of Glory. KPL"
+  },
+  {
+    "coefficients": {
+      "result": {
+        "p1": 1.44,
+        "draw": 0,
+        "p2": 2.6
+      },
+      "Фора. Карта 1": [
+        {
+          "key": "Giants(-3.5)",
+          "value": "1.75"
+        },
+        {
+          "key": "Heretics(+3.5)",
+          "value": "2.01"
+        }
+      ],
+      "Тотал. Карта 1": [
+        {
+          "value": "20.5",
+          "over": "1.70",
+          "under": "2.08"
+        }
+      ]
+    },
+    "team1": "Giants",
+    "team2": "Heretics",
+    "event": "Valorant. VRL SP"
+  }
+]
