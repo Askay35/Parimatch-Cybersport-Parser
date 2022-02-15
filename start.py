@@ -238,7 +238,7 @@ def parseUrl(url):
     match['team1'] = teams[0].text
     match['team2'] = teams[1].text
 
-    event_name = driver.find_element_by_xpath('//div[@data-id="heading-bar-title"]')
+    event_name = driver.find_elements_by_xpath('//div[@data-id="heading-bar-title"]')
 
     if len(event_name) < 1:
         print("no event names")
