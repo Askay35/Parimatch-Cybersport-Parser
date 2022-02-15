@@ -274,7 +274,7 @@ def parseUrl(url):
                 if len(total_res) < 1:
                     out_results = rc.find_elements_by_xpath(outcome_xpath)
                     for out in out_results:
-                        kv = t.text.replace('\n', ' ').split(' ')
+                        kv = out.text.replace('\n', ' ').split(' ')
                         match['coefficients'][r_title].append({'key':' '.join(kv),'value':kv[-1]})
                 else:
                     for t in total_res:
