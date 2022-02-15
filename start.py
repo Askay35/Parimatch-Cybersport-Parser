@@ -214,14 +214,6 @@ def parseUrl(url):
     driver.get(url)
     time.sleep(5)
 
-    WebDriverWait(driver, 30).until(ec.presence_of_element_located((By.XPATH, result_container_xpath)))
-
-    result_containers = driver.find_elements_by_xpath(result_container_xpath)
-
-    if len(result_containers) < 1:
-        print("no result containers")
-        return False
-
     match = {
         "coefficients": {
             "result": {
@@ -236,12 +228,25 @@ def parseUrl(url):
             # }
         }
     }
+
+
     teams = driver.find_elements_by_xpath('//div[@data-id="prematch-infoboard-competitor"]')
     match['team1'] = teams[0].text
     match['team2'] = teams[1].text
 
     event_name = driver.find_element_by_xpath('//div[@data-id="heading-bar-title"]')
     match['event'] = event_name.text
+
+
+    try:
+        WebDriverWait(driver, 30).until(ec.presence_of_element_located((By.XPATH, result_container_xpath)))
+    except:
+        return match
+    result_containers = driver.find_elements_by_xpath(result_container_xpath)
+
+    if len(result_containers) < 1:
+        print("no result containers")
+        return match
 
     for rc in result_containers:
         r_title_el = rc.find_elements_by_xpath(result_title_xpath)
