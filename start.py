@@ -275,25 +275,19 @@ def parseUrl(url):
                     out_results = rc.find_elements_by_xpath(outcome_xpath)
                     for out in out_results:
                         kv = out.text.replace('\n', ' ').split(' ')
-                        match['coefficients'][r_title].append({'key':' '.join(kv),'value':kv[-1]})
+                        match['coefficients'][r_title].append({'key':' '.join(kv[:-1]),'value':kv[-1]})
                 else:
                     for t in total_res:
                         total = t.text.replace('\n', ' ').split(' ')
                         match['coefficients'][r_title].append({'value':total[0],'over':total[1],'under':total[2]})
-
-    print(match)
 
     return match
 
 
 def parseUrls(urls):
     matches = []
-    p = 0
     for url in urls:
         matches.append(parseUrl(url))
-        p += 1
-        if p > 0:
-            break
 
     return matches
 
