@@ -231,10 +231,19 @@ def parseUrl(url):
 
 
     teams = driver.find_elements_by_xpath('//div[@data-id="prematch-infoboard-competitor"]')
+    if len(teams) < 1:
+        print("no teams")
+        return match
+
     match['team1'] = teams[0].text
     match['team2'] = teams[1].text
 
     event_name = driver.find_element_by_xpath('//div[@data-id="heading-bar-title"]')
+
+    if len(event_name) < 1:
+        print("no event names")
+        return match
+
     match['event'] = event_name.text
 
 
