@@ -244,7 +244,7 @@ def parseUrl(url):
         print("no event names")
         return match
 
-    match['event'] = event_name.text
+    match['event'] = event_name[0].text
 
 
     try:
